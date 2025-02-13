@@ -1,15 +1,14 @@
-# Heading 1 brave-chatgpt-stt-script (Linux web)
+# brave-chatgpt-stt-script (Linux web, Python)
 
-## Heading 2 This is a lightweight Python cloud script for voice typing and speech-to-text (STT) automation in Brave and ChatGPT, utilizing xdtool. 
-
-## Heading 2 Voice Typing Script Overview
+This is a lightweight Python cloud script for voice typing and speech-to-text (STT) automation in Brave and ChatGPT, utilizing xdtool. 
 
 While this script is primarily designed for desktop environments, similar functionality can be achieved on mobile devices (iOS and Android) using built-in voice dictation features or custom mobile app development
 
-## Heading 3 Example
+
+## Voice Typing Script Overview
 
 
-### Install Necessary Dependencies
+1. ### Install Necessary Dependencies
 Make sure you have these installed via the terminal:
 
 
@@ -18,8 +17,11 @@ sudo apt-get install python3 python3-pip xdotool portaudio19-dev python3-pyaudio
 pip3 install SpeechRecognition
 ```
 
+2. File instructions for code snippets: Python Script
 
-Python Script
+#  Open the Python script and print its contents with open ('voice_type_py', 'r') as file:
+print (file.read)
+
 Create a file named voice_type.py and add the following code:
 
 ```
