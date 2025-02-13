@@ -5,10 +5,10 @@ This is a lightweight Python cloud script for voice typing and speech-to-text (S
 While this script is primarily designed for desktop environments, similar functionality can be achieved on mobile devices (iOS and Android) using built-in voice dictation features or custom mobile app development
 
 
-## Voice Typing Script Overview
+## 1. Voice Typing Script Overview
 
+### Install Necessary Dependencies
 
-1. ### Install Necessary Dependencies
 Make sure you have these installed via the terminal:
 
 
@@ -17,12 +17,12 @@ sudo apt-get install python3 python3-pip xdotool portaudio19-dev python3-pyaudio
 pip3 install SpeechRecognition
 ```
 
-2. File instructions for code snippets: Python Script
+##  2. File instructions for code snippets: Python Script
 
-#  Open the Python script and print its contents with open ('voice_type_py', 'r') as file:
+###  a. Open the Python script and print its contents with open ('voice_type_py', 'r') as file:
 print (file.read)
 
-Create a file named voice_type.py and add the following code:
+### b. Create a file named voice_type.py and add the following code:
 
 ```
 Python
@@ -56,26 +56,27 @@ while True:
         break```
 
 
-Running the Script
+## 3. Running the Script
 
-Save the file as voice_type.py. Open the terminal and run the script:
+### - Save the file as voice_type.py. Open the terminal and run the script:
 
 ```bash
 #python3 voice_type.py
 
-Testing
+## 4. Testing
 
 1. Open Brave or any text editor, and run the script.
 2. Focus on the text field and speak into your microphone. The words should be typed automatically.
 
-**Common Troubleshooting*
-**
-- If it's not working, try adjusting the device index in the script to match your active microphone (check with arecord -l).
-- If you encounter errors with the microphone, ensure that PulseAudio is running correctly (pulseaudio --start).
+
+## 5. Common Troubleshooting
+
+### - If it's not working, try adjusting the device index in the script to match your active microphone (check with arecord -l).
+### - If you encounter errors with the microphone, ensure that PulseAudio is running correctly (pulseaudio --start).
 Test the microphone in the terminal to ensure it's working using:
 
-```
-bash
+```bash
 arecord -D plughw:1,0 -f cd test-mic.wav```
-Commit your changes: Enter a commit message like "Add Voice Typing Script Overview" and click "Commit changes".
+
+## 6. Commit your changes: Enter a commit message like "Add Voice Typing Script Overview" and click "Commit changes".
 
