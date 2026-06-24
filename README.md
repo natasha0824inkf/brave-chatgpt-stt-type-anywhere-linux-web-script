@@ -1,9 +1,11 @@
-```markdown
-# 🎙️ Brave STT Voice Typing Anywhere (Linux & macOS)
+🎙️ Brave STT Voice Typing Anywhere (Linux & macOS)
+---
 
 A lightweight Python script to turn your voice into text in Brave, ChatGPT, or any text field on **Linux** and **macOS**.
 
-> ⚠️ **STOP! READ THIS FIRST** ⚠️  
+---
+
+##> ⚠️ **STOP! READ THIS FIRST** ⚠️  
 > **Do not run the old installation commands** (`sudo apt install pyaudio`) on Ubuntu 22.04 or older hardware.  
 > That step involves compiling C++ code that has **broken many users' systems**, causing:
 > - Missing commands (`ls`, `apt`, `python3` vanish).
@@ -12,30 +14,21 @@ A lightweight Python script to turn your voice into text in Brave, ChatGPT, or a
 >
 > **If you want to stay safe:** Use the **Cloud Method** below. It requires **zero** system changes.
 
----
-
-## 📋 **HOW TO COPY & PASTE CODE**
-
-**If the "Copy" button doesn't work:**
-1.  **Highlight** the code manually with your mouse.
-2.  **Right-click** > **Copy** (or `Ctrl+C` / `Cmd+C`).
-3.  **Paste** into your file (or `Ctrl+V` / `Cmd+V`).
-4.  **Save** the file.
 
 ---
 
-## 🚀 Quick Start (The Safe Way)
-
+### 🚀 Quick Start (Safe Way)
 ### Option A: Run in the Cloud (100% Safe)
-**Best for:** Anyone who doesn't want to risk breaking their computer.
+**Best for:** Anyone who doesn't want to risk breaking their computer.**
 1. Go to [GitHub Codespaces](https://github.com/codespaces) or [Google Colab](https://colab.research.google.com).
 2. Open a new terminal.
 3. Run this single command:
    ```bash
    pip install SpeechRecognition
    ```
-4. Copy the code from **Section 2** below, save it as `voice_type.py`, and run it.  
-   *(Note: Microphone access in the cloud requires browser permissions.)*
+
+**4. Copy the code from **Section 2** below, save it as `voice_type.py`, and run it.  
+   *(Note: Microphone access in the cloud requires browser permissions.)**
 
 ### Option B: Local Virtual Environment (Safe-ish)
 **Best for:** Testing locally without touching system files.
