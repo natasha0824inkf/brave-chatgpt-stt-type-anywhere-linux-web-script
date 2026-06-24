@@ -1,4 +1,4 @@
-# 🎙️ Brave ChatGPT Voice Typing Script (STT)
+# 🎙️ Brave STT Voice Typing Anywhere (Linux)
 
 A lightweight Python script to turn your voice into text in Brave, ChatGPT, or any text field on Linux.
 
