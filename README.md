@@ -5,7 +5,7 @@ A lightweight Python script to turn your voice into text in Brave, ChatGPT, or a
 
 ---
 
-##> ⚠️ **STOP! READ THIS FIRST** ⚠️  
+> ⚠️ **STOP! READ THIS FIRST** ⚠️  
 > **Do not run the old installation commands** (`sudo apt install pyaudio`) on Ubuntu 22.04 or older hardware.  
 > That step involves compiling C++ code that has **broken many users' systems**, causing:
 > - Missing commands (`ls`, `apt`, `python3` vanish).
